@@ -1,0 +1,35 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__chart {
+        padding: 24px;
+        background: var(--bg-tertiary);
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
+        min-height: 500px;
+    }
+}
+
+
+.skeleton-shimmer {
+    background: linear-gradient(
+        90deg,
+        #e2e8f0 25%,     // Серый
+        #cbd5e1 50%,     // Темно-серый  
+        #e2e8f0 75%      // Серый
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

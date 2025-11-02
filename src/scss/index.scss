@@ -1,0 +1,12 @@
+// Импорт нормализации стилей
+@import url('./_normalize.scss');
+// Общая конфигурация стилей
+@import url('./_settings.scss');
+
+// Импорт стилей для компонентов
+@import url('./components/Container.scss');
+@import url('./components/Header.scss');
+@import url('./components/TimeSelector.scss');
+@import url('./components/WeatherChart.scss');
+@import url('./components/Skeleton.scss');
+@import url('./components/ErrorState.scss');
