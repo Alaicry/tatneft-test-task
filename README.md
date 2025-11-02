@@ -8,7 +8,7 @@
 
 ```bash
 # 1. Клонируем и заходим
-git clone <ваш-репозиторий>
+git clone https://github.com/Alaicry/tatneft-test-task.git
 
 cd weather-charts
 
